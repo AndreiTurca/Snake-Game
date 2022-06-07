@@ -1,0 +1,54 @@
+@font-face {
+    font-family: '8BitFont';
+    src: url(fonts/8bitOperatorPlus8-Bold.ttf);
+}
+
+
+
+
+body {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+
+#start,
+#game-over {
+    font-family: '8BitFont';
+    color: #39FF14;
+    padding: 50px;
+    position: fixed;
+    margin-left: -100px;
+    margin-top: -100px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    z-index: 10;
+}
+
+#start a,
+#game-over a {
+
+    color: #39FF14;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-left: -40px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 2.5em;
+    display: ruby-base;
+}
+
+
+
+
+
+#start a:hover,
+#game-over a:hover {
+    background-color: #39FF14;
+    color: #000000;
+}
